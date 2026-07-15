@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <meta name="description"
+    content="Portfolio of Your Name — full-stack developer and Information Systems student building practical, well-documented software.">
+
+  <!-- Fonts: Space Grotesk (display), IBM Plex Sans (body), IBM Plex Mono (labels/data) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400&family=Space+Grotesk:wght@400;500;600&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+  <!-- ============ SKIP LINK (accessibility) ============ -->
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ============ HEADER / NAV ============ -->
+  <header class="site-header" id="top">
+    <div class="nav-wrap container">
+      <a href="#top" class="logo">
+        <span class="logo-mark" aria-hidden="true">&lt;/&gt;</span>
+        <span class="logo-text">Yusupha Bah</span>
+      </a>
+
+      <nav class="nav" id="site-nav" aria-label="Primary">
+        <ul class="nav-list">
+          <li><a href="#top" class="nav-link is-active" data-nav>Home</a></li>
+          <li><a href="#about" class="nav-link" data-nav>About</a></li>
+          <li><a href="#skills" class="nav-link" data-nav>Skills</a></li>
+          <li><a href="#projects" class="nav-link" data-nav>Projects</a></li>
+          <li><a href="#contact" class="nav-link" data-nav>Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle menu">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home">
+
+      <!--<div>
+        <video controls>
+          src = "./path of the video "
+        </video>
+
+
+      </div>
+
+      <div>
+        <xxxxxxxxxxxxxxxxxx background picture of -->
+      </div>
+
+      <div class="Profile-pic">
+        <img src="./images/Usuf.jpg" alt="Profile">
+      </div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"> Full-Stack Developer</p>
+          <h1 class="hero-title">
+            Turning complex problems into
+            <span class="hero-title-accent">scalable, reliable, and user-focused software.</span>
+          </h1>
+
+          <p class="hero-lede">
+            I'm Yusupha Bah, a frontend developer who loves turning complex ideas into simple, elegant, and interactive
+            experiences. From responsive websites to full-scale applications, I build solutions that are not only
+            functional but enjoyable to use. My journey continues toward combining modern web development with AI to
+            create impactful healthcare innovations.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View my projects</a>
+            <a href="#contact" class="btn btn-ghost">Get in touch</a>
+          </div>
+          <dl class="hero-stats">
+            <div class="hero-stat">
+              <dt>Focus</dt>
+              <dd>Web Development</dd>
+            </div>
+            <div class="hero-stat">
+              <dt>Based in</dt>
+              <dd>The Gambia</dd>
+            </div>
+            <div class="hero-stat">
+              <dt>Open to</dt>
+              <dd>Internships &amp; junior roles</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <svg class="signal-line" viewBox="0 0 480 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- ECG pulse morphing into a circuit path: signal -> system -->
+            <path class="signal-path" d="M10 160
+                 L70 160
+                 L90 100
+                 L110 210
+                 L130 60
+                 L150 160
+                 L210 160
+                 L230 160
+                 L250 120 L250 160
+                 L290 160
+                 L290 90 L330 90
+                 L330 160
+                 L370 160
+                 L370 60 L410 60
+                 L410 200 L470 200" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+              stroke-linejoin="round" />
+            <circle class="signal-node" cx="250" cy="120" r="5" />
+            <circle class="signal-node" cx="330" cy="90" r="5" />
+            <circle class="signal-node" cx="410" cy="60" r="5" />
+            <circle class="signal-node" cx="470" cy="200" r="6" />
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about">
+      <div class="container about-grid">
+        <div class="section-head">
+          <p class="section-eyebrow">01 — About</p>
+          <h2 class="section-title">A little about how I work</h2>
+        </div>
+
+        <div class="about-body">
+          <p>
+            Hi! I'm Yusupha Bah, a Frontend Developer passionate about creating
+            responsive, accessible, and user-centered web applications. I enjoy
+            transforming ideas into interactive digital experiences using modern
+            technologies like HTML, CSS, JavaScript, and React. My focus is on writing
+            clean, maintainable code while building interfaces that are both functional
+            and enjoyable to use.
+          </p>
+
+          <p>
+            My journey in technology has been driven by curiosity, problem-solving, and
+            continuous learning. I enjoy exploring new tools, improving my development
+            skills, and building projects that solve real-world problems. Beyond
+            frontend development, I'm interested in the intersection of software
+            engineering, data, and Artificial Intelligence — with a long-term goal of
+            contributing to AI-powered healthcare solutions.
+          </p>
+
+          <ul class="about-facts">
+            <li><span class="fact-label">Education</span> BSc Information Systems, University of The Gambia</li>
+            <li><span class="fact-label">Currently learning</span> React, Next.js & Modern Frontend Development</li>
+            <li><span class="fact-label">Future focus</span> Artificial Intelligence for Healthcare</li>
+          </ul>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-eyebrow">02 — Skills & Technologies</p>
+          <h2 class="section-title">What I build with</h2>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3 class="skill-card-title">Languages</h3>
+            <ul class="tag-list">
+              <li class="tag">Python</li>
+              <li class="tag">JavaScript</li>
+              <li class="tag">Java</li>
+              <li class="tag">HTML5</li>
+              <li class="tag">CSS3</li>
+              <li class="tag">SQL</li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <h3 class="skill-card-title">Frameworks &amp; Tools</h3>
+            <ul class="tag-list">
+              <li class="tag">Flask</li>
+              <li class="tag">SQL</li>
+              <li class="tag">React</li>
+              <li class="tag">Next.js</li>
+              <li class="tag">Git &amp; GitHub</li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <h3 class="skill-card-title">Practices</h3>
+            <ul class="tag-list">
+              <li class="tag">Responsive design</li>
+              <li class="tag">REST APIs</li>
+              <li class="tag">Role-based access</li>
+              <li class="tag">Technical documentation</li>
+              <li class="tag">Version control</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-eyebrow">03 — Projects</p>
+          <h2 class="section-title">Selected work</h2>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- Project 1 -->
+          <article class="project-card">
+            <div class="project-image">
+              <img src="./images/Screenshot 2026-07-15 153136.png" alt="Tutor-Connect">
+
+            </div>
+            <div class="project-card-top">
+              <span class="project-index">01</span>
+              <h3 class="project-title">Expense Tracker</h3>
+            </div>
+            <p class="project-desc">
+              A responsive web application that helps users track their income and expenses, monitor their financial
+              balance, and manage personal budgets through an intuitive and user-friendly interface.
+            </p>
+            <ul class="tag-list tag-list-sm">
+              <li class="tag">HTML</li>
+              <li class="tag">CSS</li>
+              <li class="tag">JavaScript</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://yusupha-bah-dev.github.io/utg-opportunity-platform/opportunities.html" target="_blank"
+                rel="noopener noreferrer" class="project-link">
+                View Project
+              </a> <a href="#" class="project-link">
+
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <div class="project-image">
+              <img src="./images/image.png" alt="UTG Opportunity Platform Screenshot">
+            </div>
+
+            <div class="project-card-top">
+              <span class="project-index">02</span>
+              <h3 class="project-title">UTG Opportunity Board</h3>
+            </div>
+
+            <p class="project-desc">
+              A multi-page web app where students discover internships,
+              scholarships, and opportunities, restricted to verified
+              university email addresses.
+            </p>
+
+            <ul class="tag-list tag-list-sm">
+              <li class="tag">HTML</li>
+              <li class="tag">CSS</li>
+              <li class="tag">JavaScript</li>
+            </ul>
+
+            <div class="project-links">
+              <a href="https://yusupha-bah-dev.github.io/utg-opportunity-platform/opportunities.html" target="_blank"
+                rel="noopener noreferrer" class="project-link">
+                View Project
+              </a>
+              <a href="#" class="project-link"></a>
+            </div>
+
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card">
+            <div class="project-image">
+              <img src="./images/project-2 2026-07-15 151308.png" alt="Tutor-Connect">
+
+            </div>
+            <div class="project-card-top">
+              <span class="project-index">03</span>
+              <h3 class="project-title">UTG Tutor-Connect</h3>
+            </div>
+            <p class="project-desc">
+              A web-based platform designed to connect University of The Gambia students with qualified tutors, enabling
+              students to find academic support, schedule tutoring sessions, and improve their learning experience.
+            </p>
+            <ul class="tag-list tag-list-sm">
+              <li class="tag">HTML</li>
+              <li class="tag">CSS</li>
+              <li class="tag">JavaScript</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://yusupha-bah-dev.github.io/utg-opportunity-platform/opportunities.html" target="_blank"
+                rel="noopener noreferrer" class="project-link">
+                <button> View Project</button>
+              </a>
+              <a href="https://github.com/Yusupha-Bah/employee-access-validation-system" target="_blank"
+                rel="noopener noreferrer" class="project-link">
+
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section section-alt" id="contact">
+      <div class="container contact-grid">
+        <div class="section-head">
+          <p class="section-eyebrow">04 — Contact</p>
+          <h2 class="section-title">Let's work together</h2>
+          <p class="contact-lede">
+            Have a role, internship, or project in mind? Send a message and
+            I'll get back to you.
+          </p>
+
+          <ul class="contact-links">
+            <li>
+              <span class="fact-label">Email</span>
+              <a href="mailto:bahy5098@gmail.com">bahy5098@gmail.com</a>
+            </li>
+            <li>Phone: +220 3070487</li>
+            <li>
+              <span class="fact-label">GitHub</span>
+              <a href="https://github.com/Yusupha-Ba" target="_blank" rel="noopener">github.com/Yusupha-Bah</a>
+            </li>
+            <li>
+              <span class="fact-label">LinkedIn</span>
+              <a href="https://linkedin.com/in/yusupha-bah" target="_blank"
+                rel="noopener">linkedin.com/in/yusupha-bah</a>
+            </li>
+          </ul>
+        </div>
+
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" autocomplete="name" required>
+            <span class="form-error" data-error-for="name"></span>
+          </div>
+
+          <div class="form-field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" autocomplete="email" required>
+            <span class="form-error" data-error-for="email"></span>
+          </div>
+
+          <div class="form-field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <span class="form-error" data-error-for="message"></span>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block">Send message</button>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+
+      <p>
+        &copy; <span id="year"></span>copy right 2026| Yusupha Bah. DevLife
+      </p>
+
+      <div class="social-icons">
+        <a href="https://github.com/Yusupha-Bah" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-github"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/your-linkedin" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-linkedin"></i>
+        </a>
+
+        <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-twitter"></i>
+        </a>
+
+        <a href="mailto:your-email@gmail.com">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+
+
+
+    </div>
+  </footer>
+
+</html>
